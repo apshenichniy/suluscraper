@@ -1,0 +1,19 @@
+[package]
+name = "suluscraper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.66"
+async-channel = "1.7.1"
+clap = { version = "4.0.18", features = ["derive"] }
+console = "0.15.2"
+indicatif = "0.17.1"
+is_type = "0.2.1"
+reqwest = "0.11.12"
+scraper = "0.13.0"
+serde = { version = "1.0.147", features = ["derive"] }
+serde_json = "1.0.87"
+tokio = { version = "1.21.2", features = ["full"] }
